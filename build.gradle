@@ -33,7 +33,7 @@ dependencies {
 	implementation 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
 	implementation 'com.fasterxml.jackson.core:jackson-databind'
-	//implementation 'com.mysql:mysql-connector-j:8.0.26'
+	//implementation 'com.mysql:mysql-connector-j'
 	implementation 'org.mariadb.jdbc:mariadb-java-client'
 	implementation 'com.h2database:h2'
 	runtimeOnly 'com.h2database:h2'
@@ -45,3 +45,4 @@ dependencies {
 test {
 	useJUnitPlatform()
 }
+
